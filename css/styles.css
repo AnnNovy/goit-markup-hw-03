@@ -5,8 +5,8 @@
   --main-txt-color: #757575;
   --title-txt-color: #212121;
   --accent-color: #2196f3;
+  --secondary-accent-color: #188ce8;
   --accent-black-color: #000000;
-  --accent-white-color: #ffffff;
 }
 
 body {
@@ -37,7 +37,7 @@ body {
 }
 
 .logo-secondary {
-  color: var(--accent-white-color);
+  color: var(--main-bg-color);
 }
 
 .nav-link {
@@ -75,7 +75,7 @@ body {
 }
 
 .hero-title {
-  color: var(--accent-white-color);
+  color: var(--main-bg-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -86,7 +86,7 @@ body {
 
 .service-btn {
   background-color: var(--accent-color);
-  color: var(--accent-white-color);
+  color: var(--main-bg-color);
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -95,12 +95,12 @@ body {
   cursor: pointer;
 }
 
-.service-bt:hover,
-.service-bt:focus {
-  background-color: #188ce8;
+.service-btn:hover,
+.service-btn:focus {
+  background-color: var(--secondary-accent-color);
 }
 
-.features-list h3 {
+.feauters-title {
   color: var(--title-txt-color);
   font-weight: 700;
   font-size: 14px;
@@ -108,7 +108,7 @@ body {
   text-transform: uppercase;
 }
 
-.features-list p {
+.feauters-text {
   font-size: 14px;
   line-height: 1.71;
 }
@@ -126,14 +126,14 @@ body {
   background-color: var(--accent-bg-color);
 }
 
-.team-list h3 {
+.team-subtitle {
   color: var(--title-txt-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
 }
 
-.team-list p {
+.team-text {
   font-size: 16px;
   line-height: 1.19;
 }
@@ -181,7 +181,7 @@ body {
 .filter-item:hover,
 .filter-item:focus {
   background-color: var(--accent-color);
-  color: var(--accent-white-color);
+  color: var(--main-bg-color);
 }
 
 .card-title {
