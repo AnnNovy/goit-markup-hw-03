@@ -100,7 +100,7 @@ body {
   background-color: var(--secondary-accent-color);
 }
 
-.feauters-title {
+.features-title {
   color: var(--title-txt-color);
   font-weight: 700;
   font-size: 14px;
@@ -108,7 +108,7 @@ body {
   text-transform: uppercase;
 }
 
-.feauters-text {
+.features-text {
   font-size: 14px;
   line-height: 1.71;
 }
