@@ -385,7 +385,7 @@ p {
   display: block;
 }
 
-.card-element {
+.card-wrapper {
   padding: 20px 24px;
   border-right-width: 1px;
   border-right-style: solid;
